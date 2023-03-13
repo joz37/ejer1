@@ -1,0 +1,103 @@
+/*--------- crea funciones--------
+:root{
+	--fondo:#0a0c1b;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;100&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box; color: white;}
+
+
+
+/*-------dimensiones--------*/
+
+.contenedor{
+width: 100%;
+height: 100%;
+/*background-color: var(--fondo);*/
+padding: 50px;
+}
+
+
+
+.fila{
+	display: flex;
+	flex-direction: column;
+}
+
+.col50{
+	width: 100%;
+}
+
+.h400{
+	height: 400px;
+}
+
+.h200{
+	height: 200px
+}
+
+
+/*-------Colores------------*/
+.color__prim{background-color:#0a0c1b;}
+.color__sec{background-color: blueviolet;} 
+.color__ter{background-color: #422a8a;}
+.color__blanco-tx{color: white;}
+.color__violeta-tx{color: blueviolet;}
+.color__amarillo{background-color: yellow;}
+
+/*--------Tipografias------*/
+.tilt{
+	font-family: 'Tilt Warp', cursive;
+}
+
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+.fw100{
+	font-weight: 100;
+}
+.fw700{
+	font-weight: 700;
+}
+
+/*--------ordenamiento---------*/
+
+.dflex{
+	display: flex;
+}
+
+.centrarh{
+	justify-content: center;
+}
+
+.centrarv{
+	align-items: center;
+}
+.flex1{
+	flex-grow: 1;
+}
+
+.flex2{
+	flex-grow: 2;
+}
+
+.centrar-tx{text-align: center;}
+
+/* ------ condicion especial-----*/
+
+.flex1 > 1{
+	text-transform: uppercase;
+}
+
+.image1{
+	height: 100%;
+	object-fit: cover;
+
+}
+
+.ov{
+	overflow: hidden;
+}
