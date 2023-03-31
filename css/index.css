@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.3 ease-in-out;
 }
 
 
@@ -26,7 +27,6 @@
 
 
 header{
-    display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 5px;
@@ -35,7 +35,6 @@ header{
 
 }
 .header__img{
-    display: flex;
     margin-inline: 5px;
     width: 30px;
 }
@@ -103,6 +102,7 @@ body{
     height: 400px;
 }
 /*-------- ordenamiento -----------*/
+
 .dflex{
     display: flex;
 }
@@ -124,6 +124,11 @@ body{
 
 
 /*.----- elementos ------*/
+
+.titulo{
+    text-align: center;
+}
+
 .caja{
     
     border: solid 10px #673AB7;
@@ -151,7 +156,7 @@ body{
     
 }
 .caja__link{
-    
+    padding-inline: 10px;
     margin-right: 3px;
     border: solid 5px #673AB7;
     background: #673AB7;
@@ -165,9 +170,8 @@ body{
 
 /*---------- FOOTER -------*/
 footer{
-    position: static;
+    position: relative;
     bottom: 0;
-    display: flex;
     justify-content: space-around;
     width: 100%;
     padding: 5px;
@@ -176,7 +180,30 @@ footer{
 }
 
 .footer__img{
-    display: flex;
     margin-inline: 5px;
     width: 30px;
+}
+
+/* ---- vergas para el celu ----- */
+@media screen and (max-width: 662px) {
+    
+    .caja{
+        width: 100%;
+        
+    }
+    .fdcol{
+        flex-direction: column;
+        gap:20px;
+    }
+
+    footer{
+        justify-content: space-evenly;
+        font-size: 1rem;
+    }
+
+    .footer__img{
+        display: block;
+        width: 1rem;
+    }
+    
 }
