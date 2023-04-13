@@ -25,7 +25,7 @@
 	font-weight: 700;
 }
 
-
+/* --------header---------- */
 header{
     justify-content: space-between;
     width: 100%;
@@ -39,7 +39,7 @@ header{
     width: 30px;
 }
 
-
+/* ----body------ */
 body{
     background-image: url('https://garden.spoonflower.com/c/13547352/p/f/m/_663rxKxyw3Ci873I1-ilfT1S3LN8ezhU07Mryg26b0Xd7WP8cF62AixhA/Catstooth-%20Halloween%20Houndstooth%20with%20Cats%20Mini-%20Purple%20and%20Black%20Geometric%20Cats-%20Cute%20Cat%20Fabric-%20Classic%20Modern%20Wallpaper-%20Small%20Pied%20de%20Poule%20Blender.jpg');
 
@@ -170,8 +170,8 @@ body{
 
 /*---------- FOOTER -------*/
 footer{
-    position: static
-    bottom: 0;                  
+    position: relative;
+    bottom: 0;
     justify-content: space-around;
     width: 100%;
     padding: 5px;

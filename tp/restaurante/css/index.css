@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;100&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3 ease-in-out;
+}
+
+
+/*--------Tipografias------*/
+.tilt{
+	font-family: 'Tilt Warp', cursive;
+}
+
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+.fw100{
+	font-weight: 100;
+}
+.fw700{
+	font-weight: 700;
+}
+
+
+.portada{
+    position: relative;
+    height: 350px;
+    background-color: blueviolet;
+    color: white;
+    padding: 7%;
+}
+
+.welcome{
+    position: absolute;
+    bottom: 70px;
+    line-height: 26pt;
+}
+
+.search{
+    position: absolute;
+    bottom: -30px;
+    height: 60px;
+    width: 86%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 20px 15px -10px rgba(0, 0, 0, 0.158);
+}
+
+.search .icon__search{
+    height: 100%;
+    width: 60px;
+    background-color: rgba(137, 43, 226, 0.301);
+    text-align: center;
+    line-height: 60px;
+}
