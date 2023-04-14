@@ -165,3 +165,41 @@
     color: black;
     
 }
+
+.productos{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.rest{
+    display: flex;
+
+    height:200px;
+    background-color: aqua;
+    width: 100%;
+}
+
+.rest .rest__img{
+    height: 100%;
+    width: 40%;
+    background-color: blue;
+    background-image: url(../img/rest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rest .rest__data{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    background-color: wheat;
+}
+
+.rest__price{
+    display: flex;
+    justify-content: space-between;
+}
