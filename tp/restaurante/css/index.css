@@ -9,6 +9,36 @@
 }
 
 
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 8px; /* scroll horizontal */
+    width: 8px; /* scroll vertical */
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgba(164, 102, 236, 0.414);;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(164, 102, 236, 0.693);;
+}
+
+/* ----- sizes ------ */
+
+.med{
+    font-size: 28pt!important;
+}
+
 /*--------Tipografias------*/
 .tilt{
 	font-family: 'Tilt Warp', cursive;
@@ -100,3 +130,38 @@
         box-shadow: inset 0 0 15px rgba(0,0,0,0.164);
         font-size: 22pt !important;
     }
+
+.categorias{
+    margin-top: 35px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.categorias ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.categorias ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: gray;
+    flex: 0 0 120px;
+    gap: 5px;
+    
+}
+
+.categorias ul li:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+    color: black;
+    
+}
