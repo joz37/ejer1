@@ -172,11 +172,19 @@
 }
 
 .rest{
+    
     display: flex;
-
+    margin-top: 10px;
     height:200px;
     background-color: aqua;
     width: 100%;
+}
+
+.rest:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px #351110cb;
+
 }
 
 .rest .rest__img{
@@ -199,7 +207,7 @@
     background-color: wheat;
 }
 
-.rest__price{
+.rest__val{
     display: flex;
     justify-content: space-between;
 }

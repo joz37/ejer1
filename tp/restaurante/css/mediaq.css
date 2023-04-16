@@ -1,0 +1,12 @@
+/* ---- vergas para el celu ----- */
+@media screen and (max-width: 662px) {
+    
+    .rest{
+        width: 100%;
+    }
+
+    .productos{
+        flex-direction: column;
+        gap:20px;
+    }
+}
