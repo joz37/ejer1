@@ -41,7 +41,7 @@
 
 /* -----color------ */
 
-.gray{
+.gristx{
     color: gray;
 }
 
@@ -177,19 +177,21 @@
 
 .productos{
     /* background-color: aquamarine; */
-    padding: 20px;
+    padding: 19px;
 }
 
 .list__rest{
     display: flex;
+    padding: 10px;
     /* flex-direction: column; */
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 
 .rest{
-    
     display: flex;
+    flex: 0 0 49%;
     margin-top: 10px; 
     height:200px;
     /* background-color: wheat; */
@@ -206,12 +208,24 @@
 }
 
 .rest .rest__img{
-    height: 100%;
+
+    height: 200px;
     width: 40%;
-    background-image: url(../img/rest.jpg);
+    overflow: hidden;
+    /* background-image: url(../img/rest.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-end-start-radius: 15px;
+    border-start-start-radius: 15px;
+}
+
+.rest img{
+    object-fit: cover;
+    /* height: 100%;
+    width: 100%; */
+    height: 210px;
+    width: 100%;
     border-end-start-radius: 15px;
     border-start-start-radius: 15px;
 }
