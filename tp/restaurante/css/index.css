@@ -39,6 +39,15 @@
     font-size: 28pt!important;
 }
 
+/* -----color------ */
+
+.gray{
+    color: gray;
+}
+
+
+
+
 /*--------Tipografias------*/
 .tilt{
 	font-family: 'Tilt Warp', cursive;
@@ -167,17 +176,26 @@
 }
 
 .productos{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     padding: 20px;
 }
+
+.list__rest{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
 
 .rest{
     
     display: flex;
-    margin-top: 10px;
+    margin-top: 10px; 
     height:200px;
-    background-color: aqua;
+    /* background-color: wheat; */
+    border-radius: 20px;
     width: 100%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.253);
 }
 
 .rest:hover{
@@ -190,24 +208,47 @@
 .rest .rest__img{
     height: 100%;
     width: 40%;
-    background-color: blue;
     background-image: url(../img/rest.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-end-start-radius: 15px;
+    border-start-start-radius: 15px;
 }
 
 .rest .rest__data{
+    position: relative;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     height: 100%;
     width: 60%;
-    background-color: wheat;
+    
+
 }
 
 .rest__val{
     display: flex;
     justify-content: space-between;
+}
+
+.rest .rest__texts{
+    line-height: 25pt;
+}
+
+.rate{
+    background-color: rgb(127, 219, 255);
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18pt;
+    right: 0;
+    top: 0;
+    top: -10px;
+    right: -10px;
+    border-start-start-radius: 15px;
+    border-end-end-radius: 15px;
 }
