@@ -50,8 +50,36 @@
 }
 
 
+/* display */
 
+.dflex{
+    display: flex;
+}
 
+.centrar_h{
+    justify-content: center;
+}
+
+.centrar_y{
+    align-items: center;
+}
+.posrel{
+    position: relative;
+}
+.posab{
+    position: absolute;
+}
+
+.p20{
+    padding: 20px;
+}
+
+.fdcol{
+    flex-direction: column;
+}
+.g20{
+    gap: 20px;
+}
 /*--------Tipografias------*/
 .tilt{
 	font-family: 'Tilt Warp', cursive;
@@ -298,7 +326,6 @@ a{
     line-height: 60px;
     font-size: 18pt;
     right: 0;
-    top: 0;
     top: 320px;
     right: 10px;
     border-start-start-radius: 15px;
@@ -324,12 +351,97 @@ a{
 footer{
     position: fixed;
     bottom: 0;
+    background-color: white;
     width: 100%;
     padding: 10px;
+    text-transform: uppercase;
 }
 
 footer ul{
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+footer ul li{
+    width: 100%;
+    text-align: center;
+}
+
+footer ul li:hover{
+    border-top: solid 4px aquamarine;
+}
+
+
+
+footer a{
+    color:gray
+}
+
+
+
+footer a:hover{
+    color:black
+}
+
+footer .active{
+    
+    border-top: solid 4px aquamarine;
+    color: black;
+    font-weight: 700;
+    
+}
+
+
+header button{
+    left: 20px;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.item__carta{
+    /* background-color: aquamarine; */
+    height: 140px;
+    width: 100%;
+    gap: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+}
+
+.img__plato{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.img__plato img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.precio{
+    right: -15px;
+    bottom: 0;
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.txt__plato{
+    gap: 20px;
+
+}
+
+.sombra{
+    box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.301);
+    /* box-shadow: ejex ejey blur disantaS_E color*/
+}
+
+.mgbot{
+    margin-bottom: 50px;
 }
