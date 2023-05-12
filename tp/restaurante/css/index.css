@@ -450,8 +450,8 @@ header img{
     width: 100%;
 }
 
-.item__carta{
-    height: 40%;
+.item__carta2{
+    height: 45vh;
     width: 100%;
     overflow: hidden;
 
@@ -482,7 +482,7 @@ header img{
 }
 main{
    
-    height: 68%;
+    height: 65vh;
     padding: 20px;
     
     display: flex;
