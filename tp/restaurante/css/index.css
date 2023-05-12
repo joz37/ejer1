@@ -445,3 +445,73 @@ header button{
 .mgbot{
     margin-bottom: 50px;
 }
+
+header img{
+    width: 100%;
+}
+
+.item__carta{
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+.titulo__precio{
+    bottom: 15px;
+    width: 90%;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.precio{
+    width: 100px;
+    height: 40px;
+    border-radius: 0 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.vh100{
+    height: 100vh;
+}
+
+.sp{
+    justify-content: space-between;
+}
+main{
+   
+    height: 68%;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.btn button{
+    
+    width: 60px;
+    height: 60px;
+    border: 0;
+    font-size: 30px;
+    background-color: aquamarine;
+}
+
+.btn input{
+    width: 60px;
+    height: 60px;
+    border: 0;
+    font-size: 30px;
+    background-color: aquamarine;
+}
+.btn .enviar{
+
+    width: 60px;
+    height: 60px;
+    border: 0;
+    width: 50%;
+    background-color: aquamarine;
+}
