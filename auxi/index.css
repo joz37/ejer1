@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;100&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3 ease-in-out;
+    
+}
+
+/*--------Tipografias------*/
+.tilt{
+	font-family: 'Tilt Warp', cursive;
+}
+
+.roboto{
+	font-family: 'Roboto', sans-serif;
+}
+
+.fw100{
+	font-weight: 100;
+}
+.fw700{
+	font-weight: 700;
+}
+
+/* --------header---------- */
+header{
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    
+    background-color: #8b14f9;
+
+}
+.header__img{
+    margin-inline: 5px;
+    width: 30px;
+}
+
+/* ----body------ */
+body{
+    background-image: url('https://garden.spoonflower.com/c/13547352/p/f/m/_663rxKxyw3Ci873I1-ilfT1S3LN8ezhU07Mryg26b0Xd7WP8cF62AixhA/Catstooth-%20Halloween%20Houndstooth%20with%20Cats%20Mini-%20Purple%20and%20Black%20Geometric%20Cats-%20Cute%20Cat%20Fabric-%20Classic%20Modern%20Wallpaper-%20Small%20Pied%20de%20Poule%20Blender.jpg');
+
+}
+
+.wrapper{
+    color: white;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+    
+}
+
+.posrel{
+    position: relative;
+}
+.posab{
+    position: absolute;
+}
+
+/*--------- colores ------ */
+
+.blanco{
+    color: white;
+}
+
+.violeta{
+    background: #673AB7;
+}
+.violeta__fond{
+    background-color: #8751e4;
+}
+
+.sacacolorlink{
+    text-decoration: none;
+}
+/*-------- separaciones ---------*/
+.margin2{
+    margin: 2%;
+}
+
+
+/*-------- dimensiones -----------*/
+.w100{
+    width: 100%;
+}
+.w20{
+    width: 20%;
+}
+.w25{
+    width: 25%;
+}
+.h100{
+    height: 1000%;
+}
+.h10{
+    height: 10%;
+}
+.h20{
+    height: 20%;
+}
+.h50px{
+    height: 50px;
+}
+.h400px{
+    height: 400px;
+}
+/*-------- ordenamiento -----------*/
+
+.dflex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.centeralign{
+    align-items: center;
+}
+.centerjustify{
+    justify-content: center;
+}
+.endjustify{
+    justify-content: end;
+}
+.evenlyjustify{
+    justify-content: space-evenly;
+}
+
+
+/*.----- elementos ------*/
+
+.titulo{
+    text-align: center;
+}
+
+.caja{
+    border: solid 10px #673AB7;
+}
+
+
+.caja__textall{
+    margin: 10px;
+    margin-top: 50px;
+}
+.cajax{
+    height: 30%;
+    background-color: #673AB7;
+    background-position: center;
+    background-size: cover;
+}
+
+.caja__img{
+    width: 120px;
+    height: 120px;
+
+
+
+    top: 70px;
+    right: 35%;
+    border-radius: 100%;
+    background-color: #f1f1f1;
+    background-position: center;
+    background-size: cover;
+}
+
+.caja__texto{
+    margin: 1%;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.caja__link{
+    padding-inline: 10px;
+    margin-right: 3px;
+    border: solid 5px #673AB7;
+    background: #673AB7;
+    border-radius: 40px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 2px #351110cb;
+}
+
+
+
+/*---------- FOOTER -------*/
+footer{
+    position: relative;
+    bottom: 0;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5px;
+    background-color: #893dd0;
+    
+}
+
+.footer__img{
+    margin-inline: 5px;
+    width: 30px;
+}
+
+/* ---- vergas para el celu ----- */
+@media screen and (max-width: 662px) {
+    
+    .caja{
+        width: 100%;
+        
+    }
+    .fdcol{
+        flex-direction: column;
+        gap:20px;
+    }
+
+    footer{
+        justify-content: space-evenly;
+        font-size: 1rem;
+    }
+
+    .footer__img{
+        display: block;
+        width: 1rem;
+    }
+    
+}
