@@ -143,13 +143,26 @@ body{
 
 .caja__textall{
     margin: 10px;
-    margin-top: 50px;
+    margin-top: 70px;
+    align-items: center;
+    color: black;
+    
 }
 .cajax{
     height: 30%;
     background-color: #673AB7;
     background-position: center;
     background-size: cover;
+    
+}
+
+.cajaxx{
+    height: 30%;
+    width: 40%;
+    
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .caja__img{
@@ -167,22 +180,33 @@ body{
 }
 
 .caja__texto{
+    background-color: rgb(255, 255, 255);
     margin: 1%;
     font-size: 30px;
     font-weight: bold;
     
 }
+.caja__desc{
+    margin: 40px;
+}
+.caja__btn{
+    display: flex;
+    justify-content:space-around;
+}
 .caja__link{
     padding-inline: 10px;
     margin-right: 3px;
-    border: solid 5px #673AB7;
+    border: solid 10px #673AB7;
     background: #673AB7;
-    border-radius: 40px;
+    
     text-decoration: none;
     color: white;
-    box-shadow: 2px 2px 2px #351110cb;
+    
 }
 
+.aaa{
+   
+}
 
 
 /*---------- FOOTER -------*/
