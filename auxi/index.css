@@ -31,9 +31,10 @@ header{
     width: 100%;
     padding: 5px;
     
-    background-color: #8b14f9;
-
+    background-color: #14c3f9;
+    
 }
+
 .header__img{
     margin-inline: 5px;
     width: 30px;
@@ -41,7 +42,7 @@ header{
 
 /* ----body------ */
 body{
-    background-image: url('https://garden.spoonflower.com/c/13547352/p/f/m/_663rxKxyw3Ci873I1-ilfT1S3LN8ezhU07Mryg26b0Xd7WP8cF62AixhA/Catstooth-%20Halloween%20Houndstooth%20with%20Cats%20Mini-%20Purple%20and%20Black%20Geometric%20Cats-%20Cute%20Cat%20Fabric-%20Classic%20Modern%20Wallpaper-%20Small%20Pied%20de%20Poule%20Blender.jpg');
+    background-color: white
 
 }
 
@@ -71,7 +72,7 @@ body{
     background: #673AB7;
 }
 .violeta__fond{
-    background-color: #8751e4;
+    background-color: #14c3f9;
 }
 
 .sacacolorlink{
@@ -137,7 +138,9 @@ body{
 }
 
 .caja{
-    border: solid 10px #673AB7;
+    border: solid 10px #09a7f0;
+    height: 100%;
+    width: auto;
 }
 
 
@@ -150,7 +153,9 @@ body{
 }
 .cajax{
     height: 30%;
-    background-color: #673AB7;
+    padding: 60px;
+    color: #673AB7;
+    background-color: #09a7f0;
     background-position: center;
     background-size: cover;
     
@@ -171,8 +176,8 @@ body{
 
 
 
-    top: 70px;
-    right: 35%;
+    top: 90px;
+    
     border-radius: 100%;
     background-color: #f1f1f1;
     background-position: center;
@@ -192,21 +197,18 @@ body{
 .caja__btn{
     display: flex;
     justify-content:space-around;
+   
 }
 .caja__link{
     padding-inline: 10px;
     margin-right: 3px;
-    border: solid 10px #673AB7;
-    background: #673AB7;
-    
+    border: solid 10px #09a7f0;
+    background: #09a7f0;
     text-decoration: none;
     color: white;
     
 }
 
-.aaa{
-   
-}
 
 
 /*---------- FOOTER -------*/
@@ -230,7 +232,8 @@ footer{
     
     .caja{
         width: 100%;
-        
+        border: solid 10px #673AB7;
+        height: auto;
     }
     .fdcol{
         flex-direction: column;
@@ -246,5 +249,30 @@ footer{
         display: block;
         width: 1rem;
     }
+
+    .caja__img{
+        width: 120px;
+        height: 120px;
+    
+    
+    
+        top: 70px;
+        right: 35%;
+        border-radius: 100%;
+        background-color: #f1f1f1;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .cajax{
+        height: 30%;
+        padding: 60px;
+        color: #673AB7;
+        background-color: #673AB7;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
     
 }
