@@ -446,26 +446,48 @@ header button{
     margin-bottom: 50px;
 }
 
-header img{
+header{
     width: 100%;
+    height: 40vh;
+}
+.hw100{
+    width: 100%;
+    height: 100%;
+}
+.z0{
+    z-index: 0;
+}
+
+.z2{
+    z-index: 2;
+}
+.capa__color{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    
+    background-image: linear-gradient(0deg, #ffffff 20%, #ffffff00 46%);
+
 }
 
 .item__carta2{
     height: 45vh;
     width: 100%;
     overflow: hidden;
-
+    
 
 }
 .titulo__precio{
     bottom: 15px;
     width: 90%;
+    padding: 20px;
     left: 5%;
     display: flex;
     justify-content: space-between;
 }
 
-.precio{
+.pre{
+    background-color: aquamarine;
     width: 100px;
     height: 40px;
     border-radius: 0 15px;
@@ -482,14 +504,16 @@ header img{
 }
 main{
    
-    height: 65vh;
-    padding: 20px;
-    
+    height: 100%;
+    padding: 50px;
+    color: gray;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
 }
+
+
 
 .btn button{
     
@@ -511,7 +535,57 @@ main{
 
     width: 60px;
     height: 60px;
-    border: 0;
+
     width: 50%;
     background-color: aquamarine;
 }
+
+.searchh{
+    position: absolute;
+    bottom: 30px;
+    height: 60px;
+    width: 86%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 20px 15px -10px rgba(0, 0, 0, 0.158);
+    border-radius:10px;
+    overflow: hidden;
+}
+
+
+
+.searchh input[type="search"]{
+    height: 100%;
+    width: calc(100% - 120px);
+    border: 0;
+    
+    font-size: 12pt;
+    padding: 14pt;
+    color: rgb(0, 0, 0);
+}
+    .searchh input[type="search"]:focus{
+        outline: 0;
+        
+    }
+
+    .searchh input[type="search"]::placeholder{
+        border: 0;
+        color: rgba(0, 0, 0, 0.178);
+        
+    }
+
+    .searchh input[type="submit"]{
+        height: 60px;
+        width: 60px;
+        background-color: transparent;
+        border: 0;
+        font-size: 26pt!important;
+    }
+    
+    .searchh input[type="submit"]:active{
+        box-shadow: inset 0 0 15px rgba(0,0,0,0.164);
+        font-size: 22pt !important;
+    }
