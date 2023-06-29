@@ -1,0 +1,141 @@
+#header{
+
+	background-color: gainsboro;
+}
+
+.header__cont{
+	margin-inline: 5vw;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.header__icon{
+	display: flex;
+	align-items: center;
+}
+
+
+.header__logo{
+
+	max-width: 2rem;
+	margin-right: 3px;
+	margin-left: 3px;
+
+
+}
+.header__img{
+
+	max-height: 2rem;
+	max-width: ;rgin-right: 3px;
+	margin-left: 3px;
+	display: flex;
+	
+}
+
+.banner{
+	display: grid;
+    justify-content: space-evenly;
+
+
+}
+
+.banner__img{ 
+	height: 50vw;
+}
+
+.descrip{
+    justify-content: space-between;
+
+    display: flex;
+    margin-top: 2rem;
+    margin-inline: 5rem;
+}
+
+.descrip__text{
+	margin-right: 50px;
+}
+
+.descrip__title{
+	font-size: 1.5vw;
+}
+
+.descrip__subtext{
+	margin-left: 7vw;
+    font-size: 1.6vw;
+}
+    
+
+.descrip__img{
+    width: 50vw;
+}
+
+.productos{
+	background-color: gainsboro;
+	display: flex;
+    justify-content: center;
+}
+
+.obras{
+	display: flex;
+	margin-top: 5vw;
+    margin-inline: 0.2vw;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.obra__title{
+	font-size: 1.5vw;
+    font-family: fantasy;
+}
+.obra1{
+	margin-inline: 10px;
+    background-color: azure;
+}
+
+.obra2{
+	margin-inline: 10px;
+    background-color: khaki;
+}
+
+.obra3{
+	margin-inline: 10px;
+    background-color: lightblue;
+}
+
+.obra4{
+	    background-color: snow;
+    margin-inline: 10px;
+}
+
+.ataj{
+	margin-top: 10px;
+    margin-inline: 10px;
+	width: 20vw;
+}
+
+.staff{
+	display: grid;
+justify-content: center;
+
+text-align: center;
+}
+
+.staff__img{
+	border-radius: 200px;
+	width: 22vw;
+}
+
+.footer{
+	background-color: gainsboro;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer__text{
+	
+margin-top: 5px;
+margin-bottom: 5px;
+}
